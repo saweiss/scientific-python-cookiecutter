@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues.
+Report bugs at `<https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues>`_.
 
 If you are reporting a bug, please include:
 
@@ -42,7 +42,7 @@ or even on the web in blog posts, articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues.
+The best way to send feedback is to file an issue at `<https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues>`_.
 
 If you are proposing a feature:
 
@@ -56,13 +56,13 @@ Get Started!
 
 Ready to contribute? Here's how to set up `{{ cookiecutter.package_dist_name }}` for local development.
 
-1. Fork the `{{ cookiecutter.repo_name }}` repo on GitHub (see https://guides.github.com/activities/forking/).
+1. Fork the `{{ cookiecutter.repo_name }}` repo on GitHub (see `<https://guides.github.com/activities/forking/>`_).
 
 2. Clone the repository locally::
 
     $ git clone https://github.com/your-github-username-here/{{ cookiecutter.repo_name }}.git
 
-3. Install your local copy into a virtualenv. Assuming you have [Anaconda](https://www.anaconda.com/) installed, this is how you set up your fork for local development::
+3. Install your local copy into a virtualenv. Assuming you have `Anaconda <https://www.anaconda.com/>`_ installed, this is how you set up your fork for local development::
 
     $ conda create -n {{ cookiecutter.repo_name }} python={{ cookiecutter.minimum_supported_python_version }}  #Create a virtual environment (only do this once).
     $ source activate {{ cookiecutter.repo_name }}  #Enter the virtual environment (do this every time).
@@ -80,7 +80,7 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.package_dist_name }}`
     $ flake8
     $ pytest
 
-6. Commit your changes and push your branch to GitHub (read https://chris.beams.io/posts/git-commit/)::
+6. Commit your changes and push your branch to GitHub (read `<https://chris.beams.io/posts/git-commit/>`_)::
 
     $ git add .
     $ git commit -m "Describe changes with 50 characters or less"
@@ -96,14 +96,14 @@ Before you submit a pull request, check that it meets these guidelines:
 1. The pull request should include tests.
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
-   feature to the list in README.rst.
+   feature to the list in ``./README.rst``.
 3. The pull request should work for Python versions as specified in the ``./.travis.yaml`` file. Check
-   https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/pull_requests
+   `<https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/pull_requests>`_
    and make sure that the tests pass for all supported Python versions.
 
 References
 ----------
 
-The text in this file is modified from [NSLS-II](https://github.com/NSLS-II/scientific-python-cookiecutter).
+The text in this file is modified from `NSLS-II <https://github.com/NSLS-II/scientific-python-cookiecutter>`_.
 It is difficult to trace the origins of the text because so many projects have similar contributing files.
 If anyone knows the original author, please add an issue to the GitHub page, so proper credit can be given.
