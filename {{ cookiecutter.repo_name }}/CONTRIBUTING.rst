@@ -102,9 +102,8 @@ Before you submit a pull request, check that it meets these guidelines:
    and make sure that the tests pass for all supported Python versions.
 
 References
-__________
+----------
 
 The text in this file is modified from [NSLS-II](https://github.com/NSLS-II/scientific-python-cookiecutter).
 It is difficult to trace the origins of the text because so many projects have similar contributing files.
 If anyone knows the original author, please add an issue to the GitHub page, so proper credit can be given.
-
