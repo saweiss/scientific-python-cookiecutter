@@ -25,7 +25,7 @@ Stable releases are added to the `releases <https://github.com/{{ cookiecutter.g
 If there are no stable releases, or you know what you're doing, install the
 latest version of the master branch by entering in a command terminal::
 
-    $ pip install --upgrade https://github.com/{{ cookiecutter.github_username}}/{{ cookiecutter.repo_name }}/archive/master.tar.gz
+    $ pip3 install --upgrade https://github.com/{{ cookiecutter.github_username}}/{{ cookiecutter.repo_name }}/archive/master.tar.gz
 
 Features
 --------

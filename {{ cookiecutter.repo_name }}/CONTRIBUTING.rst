@@ -66,8 +66,8 @@ Ready to contribute? Here's how to set up `{{ cookiecutter.package_dist_name }}`
 
     $ conda create -n {{ cookiecutter.repo_name }} python={{ cookiecutter.minimum_supported_python_version }}  #Create a virtual environment (only do this once).
     $ source activate {{ cookiecutter.repo_name }}  #Enter the virtual environment (do this every time).
-    $ python3 -m pip install -e .  #Install the project for development.
-    $ python3 -m pip install --upgrade -r requirements-dev.txt  #Install development requirements.
+    $ pip3 install -e .  #Install the project for development.
+    $ pip3 install --upgrade -r requirements-dev.txt  #Install development requirements.
 
 4. Create a branch for local development::
 
