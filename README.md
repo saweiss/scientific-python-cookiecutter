@@ -1,5 +1,7 @@
 # Scientific Python Cookiecutter
 
+Please see the original @NSLS-II repo. I forked their repo to personalize it for myself.
+
 **[Documentation](https://nsls-ii.github.io/scientific-python-cookiecutter/)**
 
 This repository contains a cookiecutter template for generating a scientific
